@@ -156,7 +156,7 @@ export const ListingCardComponent = props => {
             Total Cost: {intl.formatNumber(totalCost, { style: 'currency', currency: price.currency })}
           </div>
           <div className={css.totalCost}>
-            Total Cost: {deliveryPricePerKm || 'blja'}
+            Delivery Cost per Km: {deliveryPricePerKm || 'fck'}
           </div>
           {showAuthorInfo ? (
             <div className={css.authorInfo}>
